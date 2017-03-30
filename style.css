@@ -7,3 +7,8 @@ h1 {
   float: right;
 
 }
+
+footer {
+  font-size: .75em;
+  margin-left: 10px;
+}
