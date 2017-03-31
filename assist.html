@@ -23,31 +23,69 @@
 </head>
 
 <body>
+<style>
+body {
+    margin: 0;
+}
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-6">
-          <h1>Caregiver Assist</h1>
-          <h4> A digital tool to connect caregivers to their supports, inside and outside of the hospital, and provides on-demand access to educational material. </h4>
-        </div>
-      </div>
-    </div>
-          <img src="assets/scenario/2-3.jpeg" class="profile-image img-responsive"" alt="Caregiver Assist"></a>
-      </div>
-    </div>
-   <br>
-  <br>
-  <br>
-  <br>
-  <footer class="footer">
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #14b1fd;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+</style>
+
+
+<ul>
+  <li><a aref="index.html">Home</a></li>
+  <li><a href="mentor.html">Caregiver to Caregver Mentorship</a></li>
+  <li><a href="orient.html">Orientation</a></li>
+  <li><a class="active">Caregiver Assist</a></li>
+</ul>
+
+  <div style="margin-left:25%;padding:1px 16px;height:1000px;">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <h5>Copyright &copy; 2017 Jenni Schneiderman; drawings by Sophie Riendeau</h5>
+        <div class="col-sm-12 col-md-6">
+            <h1>Caregiver Assist</h1>
+            <h4> A digital tool to connect caregivers to their supports, inside and outside of the hospital, and provides on-demand access to educational material.</h4>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-</body>
+            <img src="assets/scenario/2-3.jpeg" class="profile-image img-responsive" alt="Caregiver Assist"></a>
+        </div>
+      </div>
+     <br>
+    <br>
+    <br>
+    <br>
+  </body>
+    <footer class="footer">
+        <div class="row">
+            <p>Copyright &copy; 2017 J. Schneiderman; drawings by S. Riendeau</p>
+        </div>
+    </footer>
 
 </html>
